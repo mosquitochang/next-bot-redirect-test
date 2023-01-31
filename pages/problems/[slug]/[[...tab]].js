@@ -8,7 +8,6 @@ export default function Home() {
       <Head>
         <title>This page is for client: {query.slug}</title>
       </Head>
-
       <h1>This page is for client: {query.slug}</h1>
     </div>
   );

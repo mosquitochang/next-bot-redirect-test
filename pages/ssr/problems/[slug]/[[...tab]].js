@@ -25,7 +25,6 @@ export default function Home() {
           content="KFxM3Zo92eGSpAhdpFCiQDC63AYQEOluJipnrq7Pzvc"
         />
       </Head>
-
       <h1>This page is for crawlers: {query.slug}</h1>
     </div>
   );
