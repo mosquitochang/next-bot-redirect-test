@@ -6,6 +6,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
+        <meta
+          name="google-site-verification"
+          content="KFxM3Zo92eGSpAhdpFCiQDC63AYQEOluJipnrq7Pzvc"
+        />
       </Head>
 
       <main className={styles.main}>

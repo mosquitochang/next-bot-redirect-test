@@ -20,6 +20,7 @@ export default function Home() {
           name="description"
           content="Two Sum - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target."
         />
+        <meta name="google-site-verification" content="KFxM3Zo92eGSpAhdpFCiQDC63AYQEOluJipnrq7Pzvc" />
       </Head>
 
       <main className={styles.main}>
