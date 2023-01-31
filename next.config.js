@@ -9,7 +9,7 @@ module.exports = {
           {
             type: 'header',
             key: 'User-Agent',
-            value: 'Googlebot',
+            value: '(.*)Googlebot|facebookcatalog|facebookexternalhit(.*)',
           },
           // {
           //   type: 'header',
