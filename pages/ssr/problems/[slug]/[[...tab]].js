@@ -1,11 +1,10 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import styles from '../../../../styles/Home.module.css';
 
 export default function Home() {
   const { query } = useRouter();
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@LeetCode" />
@@ -27,11 +26,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          This page is for crawlers: {query.slug}
-        </h1>
-      </main>
+      <h1>This page is for crawlers: {query.slug}</h1>
     </div>
   );
 }
