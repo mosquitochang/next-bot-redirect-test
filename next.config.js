@@ -9,18 +9,22 @@ module.exports = {
           {
             type: 'header',
             key: 'User-Agent',
-            value: '(.*)Googlebot|facebookcatalog|facebookexternalhit(.*)',
+            value:
+              '(.*)Googlebot|Bingbot|Slurp|DuckDuckBot|Baiduspider|facebot|facebookcatalog|facebookexternalhit|Twitterbot(.*)',
           },
-          // {
-          //   type: 'header',
-          //   key: 'User-Agent',
-          //   value: 'facebookcatalog/1.0',
-          // },
-          // {
-          //   type: 'header',
-          //   key: 'User-Agent',
-          //   value: 'facebookexternalhit/1.1',
-          // },
+        ],
+      },
+      {
+        source: '/problems/:path*',
+        destination: '/ssr/problems/:path*',
+        permanent: false,
+        has: [
+          {
+            type: 'header',
+            key: 'User-Agent',
+            value:
+              '(.*)Googlebot|Bingbot|Slurp|DuckDuckBot|Baiduspider|facebot|facebookcatalog|facebookexternalhit|Twitterbot(.*)',
+          },
         ],
       },
     ];
