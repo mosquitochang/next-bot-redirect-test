@@ -3,24 +3,24 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: '/googlebot',
-        permanent: true,
+        destination: '/bot',
+        permanent: false,
         has: [
           {
             type: 'header',
             key: 'User-Agent',
             value: 'Googlebot',
           },
-          {
-            type: 'header',
-            key: 'User-Agent',
-            value: 'facebookcatalog/1.0',
-          },
-          {
-            type: 'header',
-            key: 'User-Agent',
-            value: 'facebookexternalhit/1.1',
-          },
+          // {
+          //   type: 'header',
+          //   key: 'User-Agent',
+          //   value: 'facebookcatalog/1.0',
+          // },
+          // {
+          //   type: 'header',
+          //   key: 'User-Agent',
+          //   value: 'facebookexternalhit/1.1',
+          // },
         ],
       },
     ];
