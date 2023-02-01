@@ -10,6 +10,7 @@ export default function Home() {
           content="KFxM3Zo92eGSpAhdpFCiQDC63AYQEOluJipnrq7Pzvc"
         />
       </Head>
+      <div>index</div>
     </div>
   );
 }
