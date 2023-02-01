@@ -22,18 +22,18 @@ export default function Home({ slug }) {
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeetCode" />
-        <title>This page is for crawlers: {slug}</title>
+        <title>{`This page is for crawlers in SSR: ${slug}`}</title>
         <meta name="robots" content="index,follow" />
         <meta
           name="description"
-          content={`This description is for crawlers: ${slug}`}
+          content={`This description is for crawlers in SSR: ${slug}`}
         />
         <meta
           name="google-site-verification"
           content="KFxM3Zo92eGSpAhdpFCiQDC63AYQEOluJipnrq7Pzvc"
         />
       </Head>
-      <h1>This page is for crawlers: {slug}</h1>
+      <h1>This page is for crawlers in SSR: {slug}</h1>
     </div>
   );
 }

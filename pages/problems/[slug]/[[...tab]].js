@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>This page is for client: {query.slug}</title>
+        <title>{`This page is for client in CSR: ${query.slug}`}</title>
       </Head>
-      <h1>This page is for client: {query.slug}</h1>
+      <h1>This page is for client in CSR: {query.slug}</h1>
     </div>
   );
 }
